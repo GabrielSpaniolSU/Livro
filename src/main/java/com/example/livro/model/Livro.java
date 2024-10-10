@@ -20,7 +20,7 @@ public class Livro {
     private String autor;
 
     @Column(name = "ano_publicacao")
-    private Double ano_publicacao;
+    private Integer anoPublicacao;
 
     @Column(name = "preco")
     private Double preco;
